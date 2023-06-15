@@ -1,0 +1,22 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none !important;
+}
+
+header {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.25),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("../images/index/IMG_4831.jpg");
+}
+
+.about-the-proj {
+  color: white;
+  font-size: medium;
+  border-radius: 3rem;
+  background-color: slateblue;
+  padding: 0.5rem 1rem 0.5rem 1.2rem;
+}
