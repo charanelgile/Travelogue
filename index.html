@@ -11,28 +11,158 @@
       integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
       crossorigin="anonymous" />
 
-    <link rel="stylesheet" href="./style.css" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="./styles.css" />
+
+    <!-- Google Font -->
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+    </style>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Linked JavaScript -->
+    <script src="./scripts.js"></script>
 
     <title>Travelogue - Home</title>
   </head>
   <body>
-    <div class="top-hdr-nav">
-      <header></header>
-      <nav>
-        <ul>
-          <li><a href="./index.html">Home</a></li>
-          <li><a href="./destinations.html">Destinations</a></li>
-          <li><a href="./gallery.html">Gallery</a></li>
-          <li><a href="./about.html">About</a></li>
-          <li><a href="./faqs.html">FAQs</a></li>
-        </ul>
-      </nav>
-    </div>
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="./index.html">Travelogue</a>
 
-    <div class="mid-main">
-      <main></main>
-    </div>
+        <!-- Hamburger Button -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-    <footer></footer>
+        <!-- Collapsible Nav Menu -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html"
+                >Home</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="./destinations.html">Destinations</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="./gallery.html">Gallery</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="./about.html">About</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="./faqs.html">FAQs</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Landing Page image -->
+    <header
+      class="py-5 bg-image-full"
+      style="background-image: url('./images/index/IMG_4831.jpg')">
+      <div class="text-center my-5">
+        <img
+          class="img-fluid rounded-circle mb-4"
+          src="https://dummyimage.com/150x150/6c757d/dee2e6.jpg"
+          alt="..." />
+        <h1 class="text-white fs-2 fw-bolder">Fun Gang Under the Bicol Sun</h1>
+        <p class="text-white-50 mb-0">A mini-project for KodeGo</p>
+      </div>
+    </header>
+
+    <!-- Project Description Part 1 -->
+    <section class="py-4">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-6">
+            <h4>Project Description</h4>
+            <p class="mb-0">
+              This project depicts the student's experience during his recent
+              travel with friends to the Bicol region - the nature, the islands,
+              the food, the culture, and the fresh perspective he gained after
+              such a wonderful journey.
+              <br />
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Project Description Image 1 -->
+    <div
+      class="py-5 bg-image-full"
+      style="
+        height: 20rem;
+        background-image: url('https://source.unsplash.com/4ulffa6qoKA/1200x800');
+      "></div>
+
+    <!-- Project Description Part 2 -->
+    <section class="py-4">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-6">
+            <p class="mb-0">
+              Aside from being the student's remembrance blog of his trip to
+              <i>Bicolandia</i>, this mini-project is meant for people looking
+              to gain an insight on where to go, what to do, and what to expect
+              when visiting the region.
+              <br />
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Project Description Image 2 -->
+    <div
+      class="py-5 bg-image-full"
+      style="
+        height: 20rem;
+        background-image: url('https://source.unsplash.com/4ulffa6qoKA/1200x800');
+      "></div>
+
+    <!-- Project Description Part 3 -->
+    <section class="py-4">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-6">
+            <p class="mb-0">
+              The website will give its readers a glimpse of the majestic Mayon
+              Volcano, the Bulusan trail, the pristine Subic Beach of Calintaan,
+              the calm shorelines of Rizal Beach, the ruins of Cagsawa and
+              Barcelona, and other amazing spots that are truly worth seeing.
+              <br />
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer-->
+    <footer class="py-3 bg-primary">
+      <div class="container">
+        <p class="m-0 text-center text-white">
+          Copyright &copy; Your Website 2023
+        </p>
+      </div>
+    </footer>
   </body>
 </html>
