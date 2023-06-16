@@ -1,6 +1,6 @@
 /* Nav Bar */
 nav {
-  background-color: #1eaea9;
+  background-color: #199490;
 }
 
 nav .container {
@@ -12,6 +12,7 @@ nav .container {
   padding: 0% 1.2rem;
   font-family: "Lobster", sans-serif;
   letter-spacing: 0.07rem;
+  color: white;
 }
 
 .navbar-toggler {
@@ -26,13 +27,20 @@ nav .container {
   margin-top: 10px;
 }
 
-.active {
-  font-weight: bold;
-  background-color: #14928d;
-}
-
 .nav-link {
   padding: 0.5rem 1.2rem;
+  color: white;
+}
+
+.current {
+  /* color: white; */
+  /* color: black; */
+  font-weight: bold;
+  background-color: #0f7976;
+}
+
+.navbar-toggler-icon {
+  filter: invert(100%);
 }
 
 /* Footer */
