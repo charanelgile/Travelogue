@@ -59,9 +59,7 @@ header {
   /* background-position-y: 5%; */
 }
 
-/* About */
-section h4,
-section p {
+section {
   padding: 0% 0.5rem;
 }
 
@@ -73,10 +71,30 @@ section p {
   font-size: medium;
 }
 
+section small,
+h5 {
+  font-size: small;
+}
+
+/* About */
 .about-the-proj-img {
   width: 85%;
   height: 250px;
   margin: auto;
   border-radius: 7px;
   background-color: white;
+}
+
+/* Gallery */
+.gallery-title {
+  color: #199490;
+}
+
+.carousel-item {
+  height: 300px;
+  background-color: slateblue;
+}
+
+section .carousel p {
+  font-size: small;
 }

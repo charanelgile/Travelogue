@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous" />
+
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+
+    <!-- Bootstrap JavaScript -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../styles/style.css" />
+
+    <style>
+      /* Google Font */
+      @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+      /* Shared CSS */
+      @import url("../styles/shared.css");
+    </style>
+
+    <!-- JavaScript -->
+    <script src="../scripts/scripts.js"></script>
+
+    <title>Travelogue - About</title>
+  </head>
+  <body>
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="../index.html">Travelogue</a>
+
+        <!-- Hamburger Button -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Collapsible Nav Menu -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="./destinations.html">Destinations</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link current" href="./gallery.html">Gallery</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="./about.html">About</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="./guides.html">Travel Guides</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Gallery -->
+    <section class="py-4">
+      <div class="container">
+        <!-- Calintaan, Matnog -->
+        <div class="row">
+          <div class="d-inline-flex justify-content-between">
+            <h4 class="gallery-title">First Order of Business: The Beach!</h4>
+            <small>June 8, 2023</small>
+          </div>
+        </div>
+
+        <h5>Calintaan, Matnog</h5>
+
+        <div
+          id="carousel-calintaan"
+          class="gallery-calintaan carousel slide mb-4"
+          data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div
+              class="carousel-item active"
+              style="
+                background: url(https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmVhY2h8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=400&q=60);
+                background-size: cover;
+              ">
+              <div class="carousel-caption p-0">
+                <h4>Subic Beach</h4>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Fugit dolores modi repellat ipsum, tempora soluta?
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="carousel-item"
+              style="
+                background: url(https://images.unsplash.com/photo-1473116763249-2faaef81ccda?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YmVhY2h8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=400&q=60);
+                background-size: cover;
+              ">
+              <div class="carousel-caption p-0">
+                <h4>Juag Lagoon</h4>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Fugit dolores modi repellat ipsum, tempora soluta?
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="carousel-item"
+              style="
+                background: url(https://images.unsplash.com/photo-1486262322291-6f4dbcd69e10?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjZ8fGNhdmUlMjBhdCUyMHNlYXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60);
+                background-size: cover;
+              ">
+              <div class="carousel-caption p-0">
+                <h4>Calintaan Cave</h4>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Fugit dolores modi repellat ipsum, tempora soluta?
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Previous Button -->
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carousel-calintaan"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="false"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+
+          <!-- Next Button -->
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carousel-calintaan"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="false"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+        <!-- Sorsogon -->
+        <div class="row">
+          <div class="d-inline-flex justify-content-between">
+            <h4 class="gallery-title">From the Province to the City</h4>
+            <small>June 9, 2023</small>
+          </div>
+        </div>
+
+        <h5>Sorsogon</h5>
+
+        <div
+          id="carousel-sorsogon"
+          class="gallery-sorsogon carousel slide mb-4"
+          data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div
+              class="carousel-item active"
+              style="
+                background: url(https://images.unsplash.com/photo-1487734092093-e5b02908580e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZmFsbHN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60);
+                background-size: cover;
+              ">
+              <div class="carousel-caption p-0">
+                <h4>Hidden Falls</h4>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Fugit dolores modi repellat ipsum, tempora soluta?
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="carousel-item"
+              style="
+                background: url(https://images.unsplash.com/photo-1566231270035-0aaca1fd2bbf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bmF0dXJhbCUyMHBhcmt8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60);
+                background-size: cover;
+                background-position-y: 50%;
+              ">
+              <div class="carousel-caption p-0">
+                <h4>Bulusan Natural Park</h4>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Fugit dolores modi repellat ipsum, tempora soluta?
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="carousel-item"
+              style="
+                background: url(https://images.unsplash.com/photo-1600807455249-89d2e285b9e0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHJ1aW5zfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60);
+                background-size: cover;
+              ">
+              <div class="carousel-caption p-0">
+                <h4>Barcelona Ruins</h4>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Fugit dolores modi repellat ipsum, tempora soluta?
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="carousel-item"
+              style="
+                background: url(https://images.unsplash.com/photo-1501426026826-31c667bdf23d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGJlYWNofGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60);
+                background-size: cover;
+                background-position-y: 30%;
+              ">
+              <div class="carousel-caption p-0">
+                <h4>Rizal Beach</h4>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Fugit dolores modi repellat ipsum, tempora soluta?
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Previous Button -->
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carousel-sorsogon"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="false"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+
+          <!-- Next Button -->
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carousel-sorsogon"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="false"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+        <!-- Legazpi -->
+        <div class="row">
+          <div class="d-inline-flex justify-content-between">
+            <h4 class="gallery-title">Truly Magayon</h4>
+            <small>June 11 - 12, 2023</small>
+          </div>
+        </div>
+
+        <h5>Legazpi City</h5>
+
+        <div
+          id="carousel-legazpi"
+          class="gallery-sorsogon carousel slide mb-4"
+          data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div
+              class="carousel-item active"
+              style="
+                background: url(https://images.unsplash.com/photo-1513733582371-0adb4dac50f6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cnVpbnN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60);
+                background-size: cover;
+              ">
+              <div class="carousel-caption p-0">
+                <h4>Cagsawa Ruins</h4>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Fugit dolores modi repellat ipsum, tempora soluta?
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="carousel-item"
+              style="
+                background: url(https://images.unsplash.com/photo-1463760959829-d829ea46e191?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHN1bWxhbmclMjBsYWtlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60);
+                background-size: cover;
+                background-position-x: 50%;
+              ">
+              <div class="carousel-caption p-0">
+                <h4>Sumlang Lake</h4>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Fugit dolores modi repellat ipsum, tempora soluta?
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="carousel-item"
+              style="
+                background: url(https://images.unsplash.com/photo-1615217561109-89988d9f4cf6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8cmFuY2h8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60);
+                background-size: cover;
+                background-position-y: 50%;
+              ">
+              <div class="carousel-caption p-0">
+                <h4>Quituinan Ranch</h4>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Fugit dolores modi repellat ipsum, tempora soluta?
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="carousel-item"
+              style="
+                background: url(https://images.unsplash.com/photo-1601694090572-98694c8b3b85?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Z3JlZW4lMjBoaWxsc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60);
+                background-size: cover;
+                background-position-y: 60%;
+              ">
+              <div class="carousel-caption p-0">
+                <h4>Quitinday Hills</h4>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Fugit dolores modi repellat ipsum, tempora soluta?
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="carousel-item"
+              style="
+                background: url(https://images.unsplash.com/photo-1543076499-a6133cb932fd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8Y2F2ZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60);
+                background-size: cover;
+                background-position-y: 30%;
+              ">
+              <div class="carousel-caption p-0">
+                <h4>Hoyop-Hoyopan Cave</h4>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Fugit dolores modi repellat ipsum, tempora soluta?
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Previous Button -->
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carousel-legazpi"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="false"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+
+          <!-- Next Button -->
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carousel-legazpi"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="false"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
