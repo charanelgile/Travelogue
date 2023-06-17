@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous" />
+
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+
+    <!-- Bootstrap JavaScript -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../styles/style.css" />
+
+    <style>
+      /* Google Font */
+      @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+      /* Shared CSS */
+      @import url("../styles/shared.css");
+    </style>
+
+    <!-- JavaScript -->
+    <script src="../scripts/scripts.js"></script>
+
+    <title>Travelogue - Travel Guides</title>
+  </head>
+  <body>
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="../index.html">Travelogue</a>
+
+        <!-- Hamburger Button -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Collapsible Nav Menu -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="./destinations.html">Destinations</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="./gallery.html">Gallery</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="./about.html">About</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link current" href="./guides.html">Travel Guides</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Travel Guides -->
+    <main class="py-4 mb-5">
+      <div class="container">
+        <div class="card">
+          <!-- Travel Guides Tabs -->
+          <div class="card-header">
+            <ul class="nav nav-tabs card-header-tabs">
+              <!-- Tab - Itinerary -->
+              <li class="nav-item">
+                <a
+                  href="#itinerary"
+                  class="nav-link active"
+                  data-bs-toggle="tab"
+                  >Itinerary</a
+                >
+              </li>
+
+              <!-- Tab - Hacks and Tips -->
+              <li class="nav-item">
+                <a href="#hacks" class="nav-link" data-bs-toggle="tab"
+                  >Hacks and Tips</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <!-- Travel Guides Content -->
+          <div class="card-body">
+            <div class="tab-content">
+              <!-- Content - Hacks and Tips -->
+              <div id="hacks" class="tab-pane fade" role="tabpanel">
+                <h4 class="class-title">Hacks and Tips</h4>
+
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Recusandae labore, eligendi aut temporibus eius ipsam aperiam
+                  iste ullam fugiat asperiores dolorem quo, in, iusto reiciendis
+                  esse! Distinctio optio, minus id ipsam voluptas ab, corporis
+                  eum, quas consequuntur veniam nihil. Facere est aspernatur sit
+                  labore. Temporibus deleniti aut, quam ipsa suscipit similique
+                  modi maxime. Amet, impedit omnis! Fugiat dolores provident
+                  doloribus modi laboriosam nemo sed! Harum odit sunt nihil
+                  laborum dicta quasi est tempore. Excepturi molestiae ab, sequi
+                  dicta rem fuga ut repellendus cum necessitatibus! Officia ex
+                  repellat itaque provident facilis cum repellendus! Molestiae
+                  unde voluptatem magnam doloremque omnis perspiciatis cum
+                  repellat dicta dolorum ad molestias voluptatum ducimus aliquam
+                  inventore aspernatur itaque laudantium, ipsam ex quo voluptate
+                  quos, doloribus provident eos minima? Ratione rem, sit
+                  deserunt officia maiores quod error? Accusantium deleniti
+                  fugiat ad doloremque ut est impedit eaque, animi eum! Labore
+                  expedita perferendis laborum illum praesentium assumenda rem
+                  impedit aliquid.
+                </p>
+              </div>
+
+              <!-- Content - Itinerary -->
+              <div id="itinerary" class="tab-pane fade active show">
+                <div class="accordion" id="accordion-itinerary">
+                  <!-- Accordion - Day 1 -->
+                  <div class="accordion-item">
+                    <button
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#content-day-1"
+                      class="accordion-button collapsed fw-medium odd">
+                      Day 1 - June 8, 2023
+                    </button>
+
+                    <div
+                      id="content-day-1"
+                      data-bs-parent="accordion-itinerary"
+                      class="accordion-collapse collapse">
+                      <div class="card-body p-0">
+                        <div class="table-responsive rounded">
+                          <table class="table table-striped table-bordered">
+                            <tbody>
+                              <tr>
+                                <td>Departure</td>
+                                <td>
+                                  04:45 <small>AM</small> - 05:30
+                                  <small>AM</small>
+                                </td>
+                              </tr>
+
+                              <tr>
+                                <td>Flight</td>
+                                <td>
+                                  05:30 <small>AM</small> - 06:30
+                                  <small>AM</small>
+                                </td>
+                              </tr>
+
+                              <tr>
+                                <td>Arrival</td>
+                                <td>
+                                  06:30 <small>AM</small> - 06:45
+                                  <small>AM</small>
+                                </td>
+                              </tr>
+
+                              <tr>
+                                <td>Airport to SM Sorsogon</td>
+                                <td>
+                                  06:45 <small>AM</small> - 08:00
+                                  <small>AM</small>
+                                </td>
+                              </tr>
+
+                              <tr>
+                                <td>Brunch at Bread & Brew</td>
+                                <td>
+                                  08:00 <small>AM</small> - 09:30
+                                  <small>AM</small>
+                                </td>
+                              </tr>
+
+                              <tr>
+                                <td>SM Sorsogon to Matnog Port</td>
+                                <td>
+                                  09:30 <small>AM</small> - 11:00
+                                  <small>AM</small>
+                                </td>
+                              </tr>
+
+                              <tr>
+                                <td>Matnog Port to Subic Beach</td>
+                                <td>
+                                  11:00 <small>AM</small> - 11:30
+                                  <small>AM</small>
+                                </td>
+                              </tr>
+
+                              <tr>
+                                <td>Arcadia Crystal Early Check-in</td>
+                                <td>
+                                  11:30 <small>AM</small> - 12:00
+                                  <small>PM</small>
+                                </td>
+                              </tr>
+
+                              <tr>
+                                <td>Island Hopping</td>
+                                <td>
+                                  12:00 <small>PM</small> - 05:00
+                                  <small>PM</small>
+                                </td>
+                              </tr>
+
+                              <tr>
+                                <td>Rest at Arcadia Crystal</td>
+                                <td>
+                                  05:00 <small>PM</small> - 07:00
+                                  <small>PM</small>
+                                </td>
+                              </tr>
+
+                              <tr>
+                                <td>Dinner at Subic Beach</td>
+                                <td>07:00 <small>PM</small></td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Accordion - Day 2 -->
+                  <div class="accordion-item">
+                    <button
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#content-day-2"
+                      class="accordion-button collapsed fw-medium even">
+                      Day 2 - June 9, 2023
+                    </button>
+
+                    <div
+                      id="content-day-2"
+                      data-bs-parent="accordion-itinerary"
+                      class="accordion-collapse collapse">
+                      <div class="card-body p-0">
+                        <div class="table-responsive rounded">
+                          <table class="table table-striped table-bordered">
+                            <tbody>
+                              <tr>
+                                <td>Back to Matnog Port</td>
+                                <td>
+                                  08:30 <small>AM</small> - 09:00
+                                  <small>AM</small>
+                                </td>
+                              </tr>
+
+                              <tr>
+                                <td>Hidden Falls at Zoe's Ecopark</td>
+                                <td>
+                                  09:00 <small>AM</small> - 10:30
+                                  <small>AM</small>
+                                </td>
+                              </tr>
+
+                              <tr>
+                                <td>Lunch at Bulusan Natural Park</td>
+                                <td>
+                                  10:30 <small>AM</small> - 11:30
+                                  <small>AM</small>
+                                </td>
+                              </tr>
+
+                              <tr>
+                                <td>Bulusan Lake Boat Tour</td>
+                                <td>
+                                  11:30 <small>AM</small> - 12:30
+                                  <small>PM</small>
+                                </td>
+                              </tr>
+
+                              <tr>
+                                <td>Barcelona Ruins</td>
+                                <td>
+                                  12:30 <small>PM</small> - 01:30
+                                  <small>PM</small>
+                                </td>
+                              </tr>
+
+                              <tr>
+                                <td>CMC Mission House Check-in</td>
+                                <td>
+                                  01:30 <small>PM</small> - 02:00
+                                  <small>PM</small>
+                                </td>
+                              </tr>
+
+                              <tr>
+                                <td>Dinner at Manda's Cafe</td>
+                                <td>06:30 <small>PM</small></td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Accordion - Day 3 -->
+                  <div class="accordion-item">
+                    <button
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#content-day-3"
+                      class="accordion-button collapsed fw-medium odd">
+                      Day 3 - June 10, 2023
+                    </button>
+
+                    <div
+                      id="content-day-3"
+                      data-bs-parent="accordion-itinerary"
+                      class="accordion-collapse collapse">
+                      <div class="card-body p-0">
+                        <div class="table-responsive rounded">
+                          <table class="table table-striped table-bordered">
+                            <tbody>
+                              <tr>
+                                <td>Breakfast at CMC Mission</td>
+                                <td>
+                                  07:00 <small>AM</small> - 08:30
+                                  <small>AM</small>
+                                </td>
+                              </tr>
+
+                              <tr>
+                                <td>Rizal Beach</td>
+                                <td>
+                                  10:00 <small>AM</small> - 12:30
+                                  <small>PM</small>
+                                </td>
+                              </tr>
+
+                              <tr>
+                                <td>CMC to SM Sorsogon</td>
+                                <td>
+                                  01:30 <small>PM</small> - 02:00
+                                  <small>PM</small>
+                                </td>
+                              </tr>
+
+                              <tr>
+                                <td>Lunch at B & R Cafe</td>
+                                <td>
+                                  02:00 <small>PM</small> - 03:00
+                                  <small>PM</small>
+                                </td>
+                              </tr>
+
+                              <tr>
+                                <td>SM Sorsogon to Legazpi City</td>
+                                <td>
+                                  03:00 <small>PM</small> - 04:30
+                                  <small>PM</small>
+                                </td>
+                              </tr>
+
+                              <tr>
+                                <td>Casa Vecino Check-in</td>
+                                <td>
+                                  04:30 <small>PM</small> - 04:45
+                                  <small>PM</small>
+                                </td>
+                              </tr>
+
+                              <tr>
+                                <td>Dinner at Graceland</td>
+                                <td>07:00 <small>PM</small></td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Accordion - Day 4 -->
+                  <div class="accordion-item">
+                    <button
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#content-day-4"
+                      class="accordion-button collapsed fw-medium even">
+                      Day 4 - June 11, 2023
+                    </button>
+
+                    <div
+                      id="content-day-4"
+                      data-bs-parent="accordion-itinerary"
+                      class="accordion-collapse collapse">
+                      <div class="card-body p-0">
+                        <div class="table-responsive rounded">
+                          <table class="table table-striped table-bordered">
+                            <tbody>
+                              <tr>
+                                <td>Breakfast at Casa Vecino</td>
+                                <td>
+                                  07:00 <small>AM</small> - 08:00
+                                  <small>AM</small>
+                                </td>
+                              </tr>
+
+                              <tr>
+                                <td>Cagsawa Ruins</td>
+                                <td>
+                                  08:00 <small>AM</small> - 09:40
+                                  <small>AM</small>
+                                </td>
+                              </tr>
+
+                              <tr>
+                                <td>Lunch at Socorro's Restaurant</td>
+                                <td>
+                                  09:40 <small>AM</small> - 11:00
+                                  <small>AM</small>
+                                </td>
+                              </tr>
+
+                              <tr>
+                                <td>Sumlang Lake</td>
+                                <td>
+                                  11:00 <small>AM</small> - 12:00
+                                  <small>PM</small>
+                                </td>
+                              </tr>
+
+                              <tr>
+                                <td>Quituinan Ranch</td>
+                                <td>
+                                  12:00 <small>PM</small> - 01:00
+                                  <small>PM</small>
+                                </td>
+                              </tr>
+
+                              <tr>
+                                <td>Quitinday Hills Hike</td>
+                                <td>
+                                  01:00 <small>PM</small> - 03:00
+                                  <small>PM</small>
+                                </td>
+                              </tr>
+
+                              <tr>
+                                <td>Hoyop-Hoyopan Cave Tour</td>
+                                <td>
+                                  03:00 <small>PM</small> - 04:00
+                                  <small>PM</small>
+                                </td>
+                              </tr>
+
+                              <tr>
+                                <td>Rest at Casa Vecino</td>
+                                <td>
+                                  04:00 <small>PM</small> - 06:30
+                                  <small>PM</small>
+                                </td>
+                              </tr>
+
+                              <tr>
+                                <td>Dinner at Arnok's Chicken</td>
+                                <td>06:30 <small>PM</small></td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Accordion - Day 5 -->
+                  <div class="accordion-item">
+                    <button
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#content-day-5"
+                      class="accordion-button collapsed fw-medium odd">
+                      Day 5 - June 12, 2023
+                    </button>
+
+                    <div
+                      id="content-day-5"
+                      data-bs-parent="accordion-itinerary"
+                      class="accordion-collapse collapse">
+                      <div class="card-body p-0">
+                        <div class="table-responsive rounded">
+                          <table class="table table-striped table-bordered">
+                            <tbody>
+                              <tr>
+                                <td>Breakfast at Casa Vecino</td>
+                                <td>
+                                  07:00 <small>AM</small> - 08:00
+                                  <small>AM</small>
+                                </td>
+                              </tr>
+
+                              <tr>
+                                <td>Casa Vecino to Highlands</td>
+                                <td>
+                                  08:00 <small>AM</small> - 08:30
+                                  <small>AM</small>
+                                </td>
+                              </tr>
+
+                              <tr>
+                                <td>Highlands to Airport</td>
+                                <td>
+                                  08:30 <small>AM</small> - 08:45
+                                  <small>AM</small>
+                                </td>
+                              </tr>
+
+                              <tr>
+                                <td>Departure</td>
+                                <td>
+                                  09:45 <small>AM</small> - 10:15
+                                  <small>AM</small>
+                                </td>
+                              </tr>
+
+                              <tr>
+                                <td>Flight</td>
+                                <td>
+                                  10:15 <small>AM</small> - 11:45
+                                  <small>AM</small>
+                                </td>
+                              </tr>
+
+                              <tr>
+                                <td>Arrival</td>
+                                <td>
+                                  11:45 <small>AM</small> - 12:00
+                                  <small>PM</small>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer-->
+    <footer class="py-3 fixed-bottom">
+      <div class="container">
+        <ul class="list-unstyled list-inline">
+          <li class="list-inline-item ftr-destinations">
+            <a href="./destinations.html">Destinations</a>
+
+            <ul class="list-unstyled fw-normal">
+              <li>Legazpi City</li>
+              <li>Sorsogon City</li>
+              <li>Matnog, Sorsogon</li>
+            </ul>
+          </li>
+
+          <li class="list-inline-item ftr-gallery">
+            <a href="./gallery.html">Gallery</a>
+
+            <ul class="list-unstyled fw-normal">
+              <li>Calintaan, Matnog</li>
+              <li>Sorsogon</li>
+              <li>Legazpi City</li>
+            </ul>
+          </li>
+
+          <li class="list-inline-item ftr-home">
+            <a href="../index.html">Home</a>
+
+            <ul class="list-unstyled fw-normal">
+              <li><br /></li>
+              <li><br /></li>
+              <li><br /></li>
+            </ul>
+          </li>
+
+          <li class="list-inline-item ftr-about">
+            <a href="./about.html">About</a>
+
+            <ul class="list-unstyled fw-normal">
+              <li><br /></li>
+              <li><br /></li>
+              <li><br /></li>
+            </ul>
+          </li>
+
+          <li class="list-inline-item ftr-guides">
+            <a href="./guides.html">Travel Guides</a>
+
+            <ul class="list-unstyled fw-normal">
+              <li>Hacks and Tips</li>
+              <li>Itinerary</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>

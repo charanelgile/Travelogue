@@ -59,19 +59,19 @@ header {
   /* background-position-y: 5%; */
 }
 
-section {
+main {
   padding: 0% 0.5rem;
 }
 
-section h4 {
+main h4 {
   font-size: large;
 }
 
-section p {
+main p {
   font-size: medium;
 }
 
-section small,
+main small,
 h5 {
   font-size: small;
 }
@@ -96,5 +96,46 @@ h5 {
 }
 
 section .carousel p {
+  font-size: small;
+}
+
+/* Travel Guides */
+.card-header {
+  background-color: rgb(200, 200, 200);
+}
+
+.card-header a,
+.card-header a.active {
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+/* .accordion {
+  color: slateblue;
+}
+
+.accordion-item {
+  text-align: center;
+  color: white !important;
+  background-color: slateblue !important;
+} */
+
+.accordion .accordion-item .odd {
+  color: white !important;
+  background-color: slateblue !important;
+  background-color: rgb(115, 100, 175) !important;
+}
+
+.accordion .accordion-item .even {
+  color: rgba(0, 0, 0, 0.6) !important;
+  background-color: rgb(115, 100, 175) !important;
+  background-color: rgb(150, 140, 205) !important;
+}
+
+/* .accordion .accordion-item .mid {
+  background-color: rgb(150, 140, 205) !important;
+} */
+
+.table {
   font-size: small;
 }
