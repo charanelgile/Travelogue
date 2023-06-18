@@ -23,26 +23,26 @@
       crossorigin="anonymous"></script>
 
     <!-- CSS -->
-    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="../styles/style.css" />
 
     <style>
       /* Google Font */
       @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 
       /* Shared CSS */
-      @import url("./styles/shared.css");
+      @import url("../styles/shared.css");
     </style>
 
     <!-- JavaScript -->
-    <script src="./scripts/scripts.js"></script>
+    <script src="../scripts/scripts.js"></script>
 
-    <title>Travelogue - Home</title>
+    <title>Travelogue - Travel Guides</title>
   </head>
   <body>
     <!-- Nav Bar -->
     <nav class="navbar navbar-expand-lg sticky-top">
       <div class="container">
-        <a class="navbar-brand" href="./index.html">Travelogue</a>
+        <a class="navbar-brand" href="../index.html">Travelogue</a>
 
         <!-- Hamburger Button -->
         <button
@@ -60,98 +60,67 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link current" href="./index.html">Home</a>
+              <a class="nav-link" href="../index.html">Home</a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="./pages/destinations.html"
+              <a class="nav-link current" href="./destinations.html"
                 >Destinations</a
               >
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="./pages/gallery.html">Gallery</a>
+              <a class="nav-link" href="./gallery.html">Gallery</a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="./pages/about.html">About</a>
+              <a class="nav-link" href="./about.html">About</a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="./pages/guides.html">Travel Guides</a>
+              <a class="nav-link" href="./guides.html">Travel Guides</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
 
-    <!-- Landing Page image -->
-    <header class="bg-image-full py-5">
-      <div class="text-center my-5">
-        <img
-          class="img-fluid rounded-circle mb-4"
-          src="https://dummyimage.com/150x150/6c757d/dee2e6.jpg"
-          alt="Travelogue - Bicol Icon" />
-
-        <h1 class="text-white fs-2 fw-bolder mb-4">
-          Fun Gang Under the Bicol Sun
-        </h1>
-
-        <a href="./pages/about.html" class="about-the-proj">
-          A mini-project for KodeGo
-          <i class="bi bi-arrow-right-circle ms-1"></i>
-        </a>
-      </div>
-    </header>
-
-    <!-- Stories -->
-    <main>
-      <div class="shortcut-stories">
-        <a href="./pages/destinations.html">
-          <div class="row story-title">
-            <h3 class="fs-6 py-0 my-0">
-              The Serene Subic Beach of Sorsoganons
-            </h3>
-            <small class="my-0 py-0">June 8, 2023</small>
+    <!-- Travel Guides -->
+    <main class="py-4">
+      <div class="container stories main-banner">
+        <a class="row" href="./destinations.html">
+          <div class="col-12 story-banner-legazpi">
+            <h3>Truly Magayon: The Majestic Mt. Mayon</h3>
+            <small>June 11 - 12, 2023</small>
           </div>
-
-          <div class="story-image story-image-matnog"></div>
         </a>
       </div>
 
-      <div class="shortcut-stories">
-        <a href="./pages/destinations.html">
-          <div class="row story-title">
-            <h3 class="fs-6 py-0 my-0">
-              Fall In Love for Bulusan's Hidden Beauty
-            </h3>
-            <small class="my-0 py-0">June 9 - 10, 2023</small>
-          </div>
+      <div class="container px-0 mx-0 stories">
+        <div class="sub-banners">
+          <a class="col-6 pt-1" href="./destinations.html">
+            <div class="story-banner-calintaan">
+              <h3>The Serene Subic Beach of Sorsoganons</h3>
+              <small>June 8, 2023</small>
+            </div>
+          </a>
 
-          <div class="story-image story-image-sorsogon"></div>
-        </a>
-      </div>
-
-      <div class="shortcut-stories">
-        <a href="./pages/destinations.html">
-          <div class="row story-title">
-            <h3 class="fs-6 py-0 my-0">
-              Truly Magayon: The Majestic Mt. Mayon
-            </h3>
-            <small class="my-0 py-0">June 11 - 12, 2023</small>
-          </div>
-
-          <div class="story-image story-image-legazpi"></div>
-        </a>
+          <a class="col-6 pt-1" href="./destinations.html">
+            <div class="story-banner-sorsogon">
+              <h3>Fall In Love for Bulusan's Hidden Beauty</h3>
+              <small>June 9 - 10, 2023</small>
+            </div>
+          </a>
+        </div>
       </div>
     </main>
 
     <!-- Footer-->
-    <footer class="py-3 mt-5">
+    <footer class="py-3">
       <div class="container">
         <ul class="list-unstyled list-inline">
           <li class="list-inline-item ftr-destinations">
-            <a href="./pages/destinations.html">Destinations</a>
+            <a href="./destinations.html">Destinations</a>
 
             <ul class="list-unstyled fw-normal">
               <li>Legazpi City</li>
@@ -161,7 +130,7 @@
           </li>
 
           <li class="list-inline-item ftr-gallery">
-            <a href="./pages/gallery.html">Gallery</a>
+            <a href="./gallery.html">Gallery</a>
 
             <ul class="list-unstyled fw-normal">
               <li>Calintaan, Matnog</li>
@@ -181,7 +150,7 @@
           </li>
 
           <li class="list-inline-item ftr-about">
-            <a href="./pages/about.html">About</a>
+            <a href="./about.html">About</a>
 
             <ul class="list-unstyled fw-normal">
               <li><br /></li>
@@ -191,7 +160,7 @@
           </li>
 
           <li class="list-inline-item ftr-guides">
-            <a href="./pages/guides.html">Travel Guides</a>
+            <a href="./guides.html">Travel Guides</a>
 
             <ul class="list-unstyled fw-normal">
               <li>Hacks and Tips</li>

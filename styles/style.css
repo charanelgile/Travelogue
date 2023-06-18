@@ -8,7 +8,7 @@ body {
   background-color: rgb(225, 225, 225);
 }
 
-/* Home */
+/***** Home *****/
 header {
   background-image: linear-gradient(
       to bottom,
@@ -76,7 +76,7 @@ h5 {
   font-size: small;
 }
 
-/* About */
+/***** About *****/
 .about-the-proj-img {
   width: 85%;
   height: 250px;
@@ -85,7 +85,7 @@ h5 {
   background-color: white;
 }
 
-/* Gallery */
+/***** Gallery *****/
 .gallery-title {
   color: #199490;
 }
@@ -99,7 +99,78 @@ section .carousel p {
   font-size: small;
 }
 
-/* Travel Guides */
+.gallery-breaker {
+  height: 0.35rem;
+  background-color: rgb(190, 190, 190);
+}
+
+/***** Destinations *****/
+.stories a {
+  color: white;
+}
+
+.stories a h3 {
+  font-size: large;
+}
+
+.story-banner-legazpi {
+  height: 300px;
+  padding: 0.5rem 35% 0.5rem 1rem;
+  display: flex;
+  flex-direction: column-reverse;
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.75)
+    ),
+    url(https://images.unsplash.com/photo-1463760959829-d829ea46e191?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHN1bWxhbmclMjBsYWtlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60);
+  background-size: cover;
+}
+
+.story-banner-calintaan,
+.story-banner-sorsogon {
+  height: 200px;
+  padding: 0.5rem 1rem;
+  background-size: cover;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.story-banner-calintaan {
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.75)
+    ),
+    url(https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmVhY2h8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=400&q=60);
+}
+
+.story-banner-sorsogon {
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.75)
+    ),
+    url(https://images.unsplash.com/photo-1487734092093-e5b02908580e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZmFsbHN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60);
+}
+
+.sub-banners {
+  display: flex;
+}
+
+/* Immediate Child */
+.sub-banners > a {
+  padding-left: 0px;
+  padding-right: 3px;
+}
+
+/* Adjacent Sibling */
+.sub-banners a + a {
+  padding-left: 3px;
+  padding-right: 0px;
+}
+
+/***** Travel Guides *****/
 .card-header {
   background-color: rgb(200, 200, 200);
 }
@@ -109,16 +180,6 @@ section .carousel p {
   font-weight: 600;
   color: rgba(0, 0, 0, 0.6);
 }
-
-/* .accordion {
-  color: slateblue;
-}
-
-.accordion-item {
-  text-align: center;
-  color: white !important;
-  background-color: slateblue !important;
-} */
 
 .accordion .accordion-item .odd {
   color: white !important;
@@ -131,10 +192,6 @@ section .carousel p {
   background-color: rgb(115, 100, 175) !important;
   background-color: rgb(150, 140, 205) !important;
 }
-
-/* .accordion .accordion-item .mid {
-  background-color: rgb(150, 140, 205) !important;
-} */
 
 .table {
   font-size: small;
