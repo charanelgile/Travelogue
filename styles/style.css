@@ -12,11 +12,16 @@ body {
 header {
   background-image: linear-gradient(
       to bottom,
-      rgba(0, 0, 0, 0.25),
+      rgba(0, 0, 0, 0.15),
       rgba(0, 0, 0, 0.5)
     ),
-    url("../images/index/IMG_4831.jpg");
-  /* background-position-y: 5%; */
+    /* url("https://www.rappler.com/tachyon/2021/07/mayon-volcano-shutterstock-ls.jpg?resize=1280%2C720&zoom=1"); */
+      url("https://media.istockphoto.com/id/173748944/photo/perfect-volcano.jpg?s=612x612&w=0&k=20&c=0rT0L6bxhWwWb89A_nOjONcFXRIAOHaSfsC0U_7X5ys=");
+  background-size: cover;
+  background-position: center;
+  /* background-position-y: 50%; */
+  background-repeat: no-repeat;
+  background-attachment: scroll;
 }
 
 .about-the-proj {
@@ -24,6 +29,8 @@ header {
   font-size: medium;
   border-radius: 3rem;
   background-color: slateblue;
+  background-color: rgb(115, 100, 175);
+  /* background-color: rgb(150, 140, 205); */
   padding: 0.5rem 1rem 0.65rem 1.2rem;
 }
 
@@ -54,9 +61,24 @@ header {
 .story-image {
   height: 75%;
   border-radius: 0 0 10px 10px;
-  background: url("../images/index/IMG_4831.jpg");
+}
+
+.story-image-subic {
+  background: url("../images/index/subic.jpg");
+  background-position-y: 67%;
   background-size: cover;
-  /* background-position-y: 5%; */
+}
+
+.story-image-falls {
+  background: url("../images/index/hidden-falls.JPG");
+  background-position-y: 80%;
+  background-size: cover;
+}
+
+.story-image-mayon {
+  background: url("https://media.istockphoto.com/id/173748944/photo/perfect-volcano.jpg?s=612x612&w=0&k=20&c=0rT0L6bxhWwWb89A_nOjONcFXRIAOHaSfsC0U_7X5ys=");
+  background-position-y: 40%;
+  background-size: cover;
 }
 
 main {
@@ -77,12 +99,115 @@ h5 {
 }
 
 /***** About *****/
+.proj-obj,
+.proj-desc {
+  color: #199490;
+}
+
 .about-the-proj-img {
   width: 85%;
-  height: 250px;
+  height: 300px;
   margin: auto;
-  border-radius: 7px;
   background-color: white;
+}
+
+.proj-obj-img,
+.proj-desc-img-1,
+.proj-desc-img-2,
+.proj-desc-img-3 {
+  width: 100%;
+  height: 100%;
+}
+
+.proj-obj-img {
+  background: url("../images/about/proj-obj.jpg");
+  background-size: cover;
+  background-position: center;
+  background-position-y: 100%;
+}
+
+.proj-desc-img-1 {
+  background: url("../images/about/proj-desc-1.JPG");
+  background-size: cover;
+  background-position: center;
+}
+
+.proj-desc-img-2 {
+  background: url("../images/about/proj-desc-2.JPG");
+  background-size: cover;
+  background-position: center;
+}
+
+.proj-desc-img-3 {
+  background: url("../images/about/proj-desc-3.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+/***** Destinations *****/
+.stories a {
+  color: white;
+}
+
+.stories a h3 {
+  font-size: large;
+}
+
+.story-banner-subic {
+  height: 300px;
+  padding: 0.5rem 35% 0.5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)),
+    url("../images/destinations/subic.jpg");
+  background-size: cover;
+  background-position: center;
+  background-position-y: 85%;
+}
+
+.story-banner-mayon,
+.story-banner-falls {
+  height: 200px;
+  padding: 0.5rem 1rem;
+  background-size: cover;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.story-banner-mayon {
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.65)
+    ),
+    url("../images/destinations/mayon.jpg");
+  background-size: cover;
+  background-position: center;
+  background-position-y: 70%;
+}
+
+.story-banner-falls {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)),
+    url("../images/destinations/falls.JPG");
+  background-size: cover;
+  background-position: center;
+  background-position-y: 90%;
+}
+
+.sub-banners {
+  display: flex;
+}
+
+/* Immediate Child */
+.sub-banners > a {
+  padding-left: 0px;
+  padding-right: 3px;
+}
+
+/* Adjacent Sibling */
+.sub-banners a + a {
+  padding-left: 3px;
+  padding-right: 0px;
 }
 
 /***** Gallery *****/
@@ -104,70 +229,274 @@ section .carousel p {
   background-color: rgb(190, 190, 190);
 }
 
-/***** Destinations *****/
-.stories a {
-  color: white;
-}
-
-.stories a h3 {
-  font-size: large;
-}
-
-.story-banner-legazpi {
-  height: 300px;
-  padding: 0.5rem 35% 0.5rem 1rem;
-  display: flex;
-  flex-direction: column-reverse;
-  background: linear-gradient(
-      to bottom,
-      rgba(0, 0, 0, 0.2),
-      rgba(0, 0, 0, 0.75)
-    ),
-    url(https://images.unsplash.com/photo-1463760959829-d829ea46e191?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHN1bWxhbmclMjBsYWtlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60);
+/* Carousel Pictures - Calintaan */
+.crsl-subic-1 {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),
+    url("../images/gallery/calintaan/subic-1.jpg");
   background-size: cover;
+  background-position: center;
+  background-position-y: 75%;
 }
 
-.story-banner-calintaan,
-.story-banner-sorsogon {
-  height: 200px;
-  padding: 0.5rem 1rem;
+.crsl-subic-2 {
+  background: url("../images/gallery/calintaan/subic-2.jpg");
   background-size: cover;
-  display: flex;
-  flex-direction: column-reverse;
+  background-position: center;
+  background-position-y: 80%;
 }
 
-.story-banner-calintaan {
+.crsl-subic-3 {
+  background: url("../images/gallery/calintaan/subic-3.JPG");
+  background-size: cover;
+  background-position: center;
+}
+
+.crsl-subic-4 {
+  background: url("../images/gallery/calintaan/subic-4.jpg");
+  background-size: cover;
+  background-position: center;
+  background-position-y: 80%;
+}
+
+.crsl-juag-1 {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),
+    url("../images/gallery/calintaan/juag-1.JPG");
+  background-size: cover;
+  background-position: center;
+  background-position-y: 60%;
+}
+
+.crsl-juag-2 {
+  background: url("../images/gallery/calintaan/juag-2.JPG");
+  background-size: cover;
+  background-position: center;
+  background-position-y: 85%;
+}
+
+.crsl-cave-1 {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75)),
+    url("../images/gallery/calintaan/cave-1.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.crsl-cave-2 {
+  background: url("../images/gallery/calintaan/cave-2.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+/* Carousel Pictures - Sorsogon */
+.crsl-zoe-1 {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),
+    url("../images/gallery/sorsogon/zoe-1.JPG");
+  background-size: cover;
+  background-position: center;
+}
+
+.crsl-zoe-2 {
+  background: url("../images/gallery/sorsogon/zoe-2.JPG");
+  background-size: cover;
+  background-position: center;
+  background-position-y: 70%;
+}
+
+.crsl-zoe-3 {
+  background: url("../images/gallery/sorsogon/zoe-3.JPG");
+  background-size: cover;
+  background-position: center;
+  background-position-y: 35%;
+}
+
+.crsl-zoe-4 {
+  background: url("../images/gallery/sorsogon/zoe-4.JPG");
+  background-size: cover;
+  background-position: center;
+  background-position-y: 85%;
+}
+
+.crsl-bulusan-1 {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75)),
+    url("../images/gallery/sorsogon/bulusan-1.JPG");
+  background-size: cover;
+  background-position: center;
+}
+
+.crsl-bulusan-2 {
+  background: url("../images/gallery/sorsogon/bulusan-2.JPG");
+  background-size: cover;
+  background-position: center;
+}
+
+.crsl-bulusan-3 {
   background: linear-gradient(
       to bottom,
-      rgba(0, 0, 0, 0.2),
-      rgba(0, 0, 0, 0.75)
+      rgba(0, 0, 0, 0.15),
+      rgba(0, 0, 0, 0.35)
     ),
-    url(https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmVhY2h8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=400&q=60);
+    url("../images/gallery/sorsogon/bulusan-3.JPG");
+  background-size: cover;
+  background-position: center;
 }
 
-.story-banner-sorsogon {
+.crsl-bulusan-4 {
+  background: url("../images/gallery/sorsogon/bulusan-4.JPG");
+  background-size: cover;
+  background-position: center;
+  background-position-y: 75%;
+}
+
+.crsl-barcelona-1 {
   background: linear-gradient(
       to bottom,
-      rgba(0, 0, 0, 0.2),
-      rgba(0, 0, 0, 0.75)
+      rgba(0, 0, 0, 0.15),
+      rgba(0, 0, 0, 0.5)
     ),
-    url(https://images.unsplash.com/photo-1487734092093-e5b02908580e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZmFsbHN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60);
+    url("../images/gallery/sorsogon/barcelona-1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-position-y: 75%;
 }
 
-.sub-banners {
-  display: flex;
+.crsl-barcelona-2 {
+  background: url("../images/gallery/sorsogon/barcelona-2.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
-/* Immediate Child */
-.sub-banners > a {
-  padding-left: 0px;
-  padding-right: 3px;
+.crsl-barcelona-3 {
+  background: url("../images/gallery/sorsogon/barcelona-3.jpg");
+  background-size: cover;
+  background-position: center;
+  background-position-y: 65%;
 }
 
-/* Adjacent Sibling */
-.sub-banners a + a {
-  padding-left: 3px;
-  padding-right: 0px;
+.crsl-barcelona-4 {
+  background: url("../images/gallery/sorsogon/barcelona-4.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.crsl-rizal-1 {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)),
+    url("../images/gallery/sorsogon/rizal-1.JPG");
+  background-size: cover;
+  background-position: center;
+}
+
+.crsl-rizal-2 {
+  background: url("../images/gallery/sorsogon/rizal-2.JPG");
+  background-size: cover;
+  background-position: center;
+}
+
+.crsl-rizal-3 {
+  background: url("../images/gallery/sorsogon/rizal-3.JPG");
+  background-size: cover;
+  background-position: center;
+  background-position-y: 95%;
+}
+
+/* Carousel Pictures - Legazpi */
+.crsl-mayon-1 {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)),
+    url("https://media.istockphoto.com/id/173748944/photo/perfect-volcano.jpg?s=612x612&w=0&k=20&c=0rT0L6bxhWwWb89A_nOjONcFXRIAOHaSfsC0U_7X5ys=");
+  background-size: cover;
+  background-position: center;
+}
+
+.crsl-mayon-2 {
+  background: url("../images/gallery/legazpi/mayon.JPG");
+  background-size: cover;
+  background-position: center;
+  background-position-y: 75%;
+}
+
+.crsl-cagsawa-1 {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)),
+    url("../images/gallery/legazpi/cagsawa-1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-position-y: 90%;
+}
+
+.crsl-cagsawa-2 {
+  background: url("../images/gallery/legazpi/cagsawa-2.JPG");
+  background-size: cover;
+  background-position: center;
+}
+
+.crsl-cagsawa-3 {
+  background: url("../images/gallery/legazpi/cagsawa-3.jpg");
+  background-size: cover;
+  background-position: center;
+  background-position-y: 40%;
+}
+
+.crsl-sumlang-1 {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6)),
+    url("../images/gallery/legazpi/sumlang-1.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.crsl-sumlang-2 {
+  background: url("../images/gallery/legazpi/sumlang-2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-position-y: 90%;
+}
+
+.crsl-quituinan-1 {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)),
+    url("../images/gallery/legazpi/quituinan-1.JPG");
+  background-size: cover;
+  background-position: center;
+}
+
+.crsl-quituinan-2 {
+  background: url("../images/gallery/legazpi/quituinan-2.JPG");
+  background-size: cover;
+  background-position: center;
+}
+
+.crsl-quituinan-3 {
+  background: url("../images/gallery/legazpi/quituinan-3.JPG");
+  background-size: cover;
+  background-position: center;
+}
+
+.crsl-hoyop-1 {
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.65)
+    ),
+    url("../images/gallery/legazpi/hoyop-1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-position-y: 65%;
+}
+
+.crsl-hoyop-2 {
+  background: url("../images/gallery/legazpi/hoyop-2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-position-y: 80%;
+}
+
+.crsl-hoyop-3 {
+  background: url("../images/gallery/legazpi/hoyop-3.jpg");
+  background-size: cover;
+  background-position: center;
+  background-position-y: 55%;
+}
+
+.crsl-hoyop-4 {
+  background: url("../images/gallery/legazpi/hoyop-4.jpg");
+  background-size: cover;
+  background-position: center;
+  background-position-y: 88%;
 }
 
 /***** Travel Guides *****/
