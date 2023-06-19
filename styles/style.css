@@ -15,11 +15,9 @@ header {
       rgba(0, 0, 0, 0.15),
       rgba(0, 0, 0, 0.5)
     ),
-    /* url("https://www.rappler.com/tachyon/2021/07/mayon-volcano-shutterstock-ls.jpg?resize=1280%2C720&zoom=1"); */
-      url("https://media.istockphoto.com/id/173748944/photo/perfect-volcano.jpg?s=612x612&w=0&k=20&c=0rT0L6bxhWwWb89A_nOjONcFXRIAOHaSfsC0U_7X5ys=");
+    url("https://media.istockphoto.com/id/173748944/photo/perfect-volcano.jpg?s=612x612&w=0&k=20&c=0rT0L6bxhWwWb89A_nOjONcFXRIAOHaSfsC0U_7X5ys=");
   background-size: cover;
   background-position: center;
-  /* background-position-y: 50%; */
   background-repeat: no-repeat;
   background-attachment: scroll;
 }
@@ -30,17 +28,16 @@ header {
   border-radius: 3rem;
   background-color: slateblue;
   background-color: rgb(115, 100, 175);
-  /* background-color: rgb(150, 140, 205); */
   padding: 0.5rem 1rem 0.65rem 1.2rem;
 }
 
 .shortcut-stories {
-  height: 250px;
+  height: 300px;
   margin: 1rem;
   display: flex;
-  border-radius: 10px;
+  /* border-radius: 10px; */
   background-color: white;
-  box-shadow: 3px 5px 1rem rgba(0, 0, 0, 0.35);
+  box-shadow: 3px 5px 0.75rem rgba(0, 0, 0, 0.25);
 }
 
 .shortcut-stories a {
@@ -49,7 +46,7 @@ header {
 }
 
 .story-title {
-  height: 25%;
+  /* height: 60px; */
   padding: 0.75rem 1rem;
 }
 
@@ -59,8 +56,8 @@ header {
 }
 
 .story-image {
-  height: 75%;
-  border-radius: 0 0 10px 10px;
+  height: 250px;
+  /* border-radius: 0 0 10px 10px; */
 }
 
 .story-image-subic {
@@ -79,6 +76,10 @@ header {
   background: url("https://media.istockphoto.com/id/173748944/photo/perfect-volcano.jpg?s=612x612&w=0&k=20&c=0rT0L6bxhWwWb89A_nOjONcFXRIAOHaSfsC0U_7X5ys=");
   background-position-y: 40%;
   background-size: cover;
+}
+
+.main-home {
+  flex-direction: column;
 }
 
 main {
