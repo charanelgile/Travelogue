@@ -26,7 +26,6 @@ header {
   color: white;
   font-size: medium;
   border-radius: 3rem;
-  background-color: slateblue;
   background-color: rgb(115, 100, 175);
   padding: 0.5rem 1rem 0.65rem 1.2rem;
 }
@@ -35,7 +34,6 @@ header {
   height: 300px;
   margin: 1rem;
   display: flex;
-  /* border-radius: 10px; */
   background-color: white;
   box-shadow: 3px 5px 0.75rem rgba(0, 0, 0, 0.25);
 }
@@ -46,18 +44,15 @@ header {
 }
 
 .story-title {
-  /* height: 60px; */
   padding: 0.75rem 1rem;
 }
 
 .story-title small {
-  /* text-align: right; */
   font-size: x-small;
 }
 
 .story-image {
   height: 250px;
-  /* border-radius: 0 0 10px 10px; */
 }
 
 .story-image-subic {
@@ -146,69 +141,61 @@ h5 {
 }
 
 /***** Destinations *****/
-.stories a {
-  color: white;
+.main-destinations,
+.sub-banners {
+  margin: 0;
+  padding: 0;
 }
 
-.stories a h3 {
-  font-size: large;
-}
-
-.story-banner-subic {
-  height: 300px;
-  padding: 0.5rem 35% 0.5rem 1rem;
-  display: flex;
-  flex-direction: column;
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)),
+.main-banner {
+  height: 350px;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6)),
     url("../images/destinations/subic.jpg");
   background-size: cover;
   background-position: center;
-  background-position-y: 85%;
+  background-position-y: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
-.story-banner-mayon,
-.story-banner-falls {
-  height: 200px;
-  padding: 0.5rem 1rem;
-  background-size: cover;
+.sub-banner-1,
+.sub-banner-2 {
   display: flex;
   flex-direction: column-reverse;
 }
 
-.story-banner-mayon {
-  background: linear-gradient(
-      to bottom,
-      rgba(0, 0, 0, 0.2),
-      rgba(0, 0, 0, 0.65)
-    ),
-    url("../images/destinations/mayon.jpg");
-  background-size: cover;
-  background-position: center;
-  background-position-y: 70%;
-}
-
-.story-banner-falls {
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)),
+.sub-banner-1 {
+  height: 225px;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6)),
     url("../images/destinations/falls.JPG");
   background-size: cover;
   background-position: center;
   background-position-y: 90%;
 }
 
-.sub-banners {
-  display: flex;
+.sub-banner-2 {
+  height: 225px;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6)),
+    url("../images/destinations/mayon.JPG");
+  background-size: cover;
+  background-position: center;
+  background-position-y: 40%;
 }
 
-/* Immediate Child */
-.sub-banners > a {
-  padding-left: 0px;
-  padding-right: 3px;
+.story-banner-subic,
+.story-banner-falls,
+.story-banner-mayon {
+  margin: 0.75rem 0.5rem;
 }
 
-/* Adjacent Sibling */
-.sub-banners a + a {
-  padding-left: 3px;
-  padding-right: 0px;
+.highlight-story {
+  display: none;
+}
+
+.highlight-story .btn {
+  border: none;
+  width: 130px;
+  background-color: rgb(115, 100, 175);
 }
 
 /***** Gallery *****/

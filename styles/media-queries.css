@@ -4,9 +4,57 @@
   }
 }
 
+@media screen and (min-width: 500px) {
+  .main-destinations > div {
+    margin: 1rem 2.5rem !important;
+  }
+}
+
+@media screen and (min-width: 601px) {
+  .main-destinations > div {
+    margin: 1rem 4rem !important;
+  }
+
+  .sub-banner-1,
+  .sub-banner-2 {
+    flex-direction: column;
+  }
+
+  .sub-banner-1 {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6)),
+      url("../images/destinations/falls.JPG");
+    background-size: cover;
+    background-position: center;
+    background-position-y: 30%;
+  }
+
+  .sub-banner-2 {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6)),
+      url("../images/destinations/mayon.JPG");
+    background-size: cover;
+    background-position: center;
+    background-position-y: 20%;
+  }
+}
+
 @media screen and ((min-width: 701px) and (max-width: 900px)) {
   .main-home .shortcut-stories {
     margin: 1rem 6rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .main-destinations > div {
+    margin: 1rem 6rem 2rem 6rem !important;
+  }
+
+  .main-banner {
+    height: 450px;
+  }
+
+  .highlight-story {
+    display: flex;
+    flex-direction: column;
   }
 }
 
@@ -23,8 +71,29 @@
     margin: 0% 3rem;
   }
 
+  .nav-link {
+    padding: 0.5rem 4rem;
+  }
+
+  .main-home {
+    margin-top: 0.5rem;
+  }
+
+  /* Destinations */
+  .main-destinations > div {
+    margin: 1rem 9rem 2.5rem 9rem !important;
+  }
+
+  .sub-banner-1 {
+    background-position-y: 40%;
+  }
+
+  .sub-banner-2 {
+    background-position-y: 15%;
+  }
+
   footer {
-    margin-top: 2rem;
+    margin-top: 1.5rem;
   }
 
   footer .container {
@@ -86,5 +155,19 @@
 
   footer .container {
     padding: 0.2rem 10%;
+  }
+}
+
+@media screen and (min-width: 1250px) {
+  .main-home .shortcut-stories {
+    margin: 1rem 2.2rem;
+  }
+
+  .main-destinations > div {
+    margin: 1rem 12rem 2.5rem 12rem !important;
+  }
+
+  .sub-banner-1 {
+    background-position-y: 45%;
   }
 }
