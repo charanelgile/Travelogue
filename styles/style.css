@@ -95,6 +95,10 @@ h5 {
 }
 
 /***** About *****/
+.main-about {
+  margin: 1.5rem 0.5rem;
+}
+
 .proj-obj,
 .proj-desc {
   color: #199490;

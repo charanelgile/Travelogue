@@ -1,12 +1,16 @@
-@media screen and ((min-width: 500px) and (max-width: 700px)) {
-  .main-home .shortcut-stories {
-    margin: 1rem 3rem;
-  }
-}
-
 @media screen and (min-width: 500px) {
   .main-destinations > div {
     margin: 1rem 2.5rem !important;
+  }
+
+  .main-about {
+    margin: 1.5rem 2rem;
+  }
+}
+
+@media screen and ((min-width: 500px) and (max-width: 700px)) {
+  .main-home .shortcut-stories {
+    margin: 1rem 3rem;
   }
 }
 
@@ -35,6 +39,10 @@
     background-position: center;
     background-position-y: 20%;
   }
+
+  .proj-desc-img-3 {
+    background-position-y: 40%;
+  }
 }
 
 @media screen and ((min-width: 701px) and (max-width: 900px)) {
@@ -55,6 +63,14 @@
   .highlight-story {
     display: flex;
     flex-direction: column;
+  }
+
+  .main-about {
+    margin: 1.5rem 4rem;
+  }
+
+  .about-the-proj-img {
+    width: 60%;
   }
 }
 
@@ -156,6 +172,22 @@
   footer .container {
     padding: 0.2rem 10%;
   }
+
+  .main-about {
+    margin: 1.5rem 1rem;
+  }
+
+  .about-the-proj-img {
+    width: 45%;
+  }
+
+  .proj-desc-img-1 {
+    background-position-y: 70%;
+  }
+
+  .proj-desc-img-2 {
+    background-position-y: 100%;
+  }
 }
 
 @media screen and (min-width: 1250px) {
@@ -169,5 +201,9 @@
 
   .sub-banner-1 {
     background-position-y: 45%;
+  }
+
+  .about-the-proj-img {
+    width: 35%;
   }
 }
