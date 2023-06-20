@@ -492,6 +492,10 @@ section .carousel p {
 }
 
 /***** Travel Guides *****/
+.main-guides {
+  margin: 1.5rem 0rem;
+}
+
 .card-header {
   background-color: rgb(200, 200, 200);
 }

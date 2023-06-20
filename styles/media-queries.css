@@ -72,6 +72,14 @@
   .about-the-proj-img {
     width: 60%;
   }
+
+  .main-guides {
+    margin: 1.5rem 3rem;
+  }
+
+  .main-guides .table {
+    font-size: 0.85rem;
+  }
 }
 
 @media screen and (min-width: 901px) {
@@ -188,6 +196,18 @@
   .proj-desc-img-2 {
     background-position-y: 100%;
   }
+
+  .main-guides {
+    margin: 2rem 10%;
+  }
+
+  .main-guides .card-header .nav-link {
+    padding: 0.5rem 3rem;
+  }
+
+  .main-guides .table {
+    font-size: 1rem;
+  }
 }
 
 @media screen and (min-width: 1250px) {
@@ -205,5 +225,9 @@
 
   .about-the-proj-img {
     width: 35%;
+  }
+
+  .main-guides {
+    margin: 2rem 20%;
   }
 }
