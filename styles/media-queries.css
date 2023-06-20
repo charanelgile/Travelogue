@@ -6,6 +6,42 @@
   .main-about {
     margin: 1.5rem 2rem;
   }
+
+  .crsl-zoe-2 {
+    background-position-y: 60%;
+  }
+
+  .crsl-zoe-3 {
+    background-position-y: 20%;
+  }
+
+  .crsl-bulusan-4 {
+    background-position-y: 70%;
+  }
+
+  .crsl-barcelona-2 {
+    background-position-y: 100%;
+  }
+
+  .crsl-barcelona-3 {
+    background-position-y: 70%;
+  }
+
+  .crsl-rizal-2 {
+    background-position-y: 1%;
+  }
+
+  .crsl-cagsawa-1 {
+    background-position-y: 85%;
+  }
+
+  .crsl-quituinan-2 {
+    background-position-y: 70%;
+  }
+
+  .crsl-hoyop-3 {
+    background-position-y: 65%;
+  }
 }
 
 @media screen and ((min-width: 500px) and (max-width: 700px)) {
@@ -42,6 +78,11 @@
 
   .proj-desc-img-3 {
     background-position-y: 40%;
+  }
+
+  .gallery-breaker {
+    width: 80%;
+    margin: 1.2rem auto;
   }
 }
 
@@ -80,6 +121,92 @@
   .main-guides .table {
     font-size: 0.85rem;
   }
+
+  .main-gallery .container {
+    padding: 0% 4rem;
+  }
+
+  .gallery-breaker {
+    width: 65%;
+    margin: 1.2rem auto;
+  }
+
+  .carousel-item {
+    height: 320px;
+  }
+
+  .crsl-zoe-2 {
+    background-position-y: 50%;
+  }
+
+  .crsl-bulusan-1 {
+    background-position-y: 10%;
+  }
+
+  .crsl-bulusan-2 {
+    background-position-y: 45%;
+  }
+
+  .crsl-bulusan-3 {
+    background-position-y: 100%;
+  }
+
+  .crsl-bulusan-4 {
+    background-position-y: 55%;
+  }
+
+  .crsl-barcelona-1 {
+    background-position-y: 45%;
+  }
+
+  .crsl-barcelona-3 {
+    background-position-y: 75%;
+  }
+
+  .crsl-rizal-1 {
+    background-position-y: 100%;
+  }
+
+  .crsl-rizal-3 {
+    background-position-y: 80%;
+  }
+
+  .crsl-mayon-2 {
+    background-position-y: 65%;
+  }
+
+  .crsl-cagsawa-1 {
+    background-position-y: 60%;
+  }
+
+  .crsl-cagsawa-3 {
+    background-position-y: 57%;
+  }
+
+  .crsl-sumlang-1,
+  .crsl-quituinan-1 {
+    background-position-y: 100%;
+  }
+
+  .crsl-quituinan-2 {
+    background-position-y: 65%;
+  }
+
+  .crsl-quituinan-3 {
+    background-position-y: 100%;
+  }
+
+  .crsl-hoyop-1 {
+    background-position-y: 25%;
+  }
+
+  .crsl-hoyop-2 {
+    background-position-y: 70%;
+  }
+
+  .crsl-hoyop-4 {
+    background-position-y: 65%;
+  }
 }
 
 @media screen and (min-width: 901px) {
@@ -114,6 +241,16 @@
 
   .sub-banner-2 {
     background-position-y: 15%;
+  }
+
+  /* Gallery */
+  .gallery-title {
+    font-size: 135%;
+  }
+
+  .gallery-title + small,
+  .main-gallery .container div + h5 {
+    font-size: 90%;
   }
 
   footer {
@@ -208,6 +345,46 @@
   .main-guides .table {
     font-size: 1rem;
   }
+
+  .main-gallery {
+    margin: 2rem 0%;
+    padding: 0%;
+  }
+
+  .main-gallery .container {
+    padding: 0% 20%;
+  }
+
+  .carousel-item {
+    height: 350px;
+  }
+
+  .crsl-subic-2 {
+    background-position-y: 73%;
+  }
+
+  .crsl-zoe-1 {
+    background-position-y: 60%;
+  }
+
+  .crsl-bulusan-4 {
+    background-position-y: 60%;
+  }
+
+  .crsl-cagsawa-3 {
+    background-position-y: 50%;
+  }
+
+  .crsl-hoyop-4 {
+    background-position-y: 85%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .gallery-breaker {
+    width: 50%;
+    margin: 1.5rem auto;
+  }
 }
 
 @media screen and (min-width: 1250px) {
@@ -229,5 +406,23 @@
 
   .main-guides {
     margin: 2rem 20%;
+  }
+
+  .gallery-title + small,
+  .main-gallery .container div + h5 {
+    font-size: 100%;
+  }
+
+  .gallery-breaker {
+    width: 50%;
+    margin: 1.5rem auto;
+  }
+
+  .carousel-item {
+    height: 380px;
+  }
+
+  .crsl-hoyop-4 {
+    background-position-y: 80%;
   }
 }

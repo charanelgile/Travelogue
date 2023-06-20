@@ -203,6 +203,15 @@ h5 {
 }
 
 /***** Gallery *****/
+.main-gallery {
+  margin: 1.5rem 0%;
+  padding: 0%;
+}
+
+.main-gallery .container {
+  padding: 0% 2rem;
+}
+
 .gallery-title {
   color: #199490;
 }
@@ -217,8 +226,9 @@ section .carousel p {
 }
 
 .gallery-breaker {
+  margin: 1.2rem 0%;
   height: 0.35rem;
-  background-color: rgb(190, 190, 190);
+  background-color: rgb(180, 180, 180);
 }
 
 /* Carousel Pictures - Calintaan */
@@ -304,7 +314,7 @@ section .carousel p {
   background: url("../images/gallery/sorsogon/zoe-4.JPG");
   background-size: cover;
   background-position: center;
-  background-position-y: 85%;
+  background-position-y: 35%;
 }
 
 .crsl-bulusan-1 {
