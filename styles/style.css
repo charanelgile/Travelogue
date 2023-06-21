@@ -192,14 +192,24 @@ h5 {
   margin: 0.75rem 0.5rem;
 }
 
-.highlight-story {
+.highlight-story-container {
   display: none;
 }
 
-.highlight-story .btn {
+.highlight-story-title {
+  color: #199490;
+}
+
+.next-story {
   border: none;
-  width: 130px;
+  width: 150px;
   background-color: rgb(115, 100, 175);
+}
+
+.next-story:hover {
+  color: white !important;
+  background-color: rgb(115, 100, 175);
+  background-color: rgb(150, 140, 205) !important;
 }
 
 /***** Gallery *****/
