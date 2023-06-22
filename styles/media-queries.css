@@ -89,7 +89,9 @@
     background-position-y: 40%;
   }
 
-  .main-subic {
+  .main-subic,
+  .main-falls,
+  .main-mayon {
     margin: 2rem 3.5rem;
   }
 
@@ -220,11 +222,15 @@
     background-position-y: 65%;
   }
 
-  .main-subic {
+  .main-subic,
+  .main-falls,
+  .main-mayon {
     margin: 2rem 15%;
   }
 
-  .subic-story-container small {
+  .subic-story-container small,
+  .falls-story-container small,
+  .mayon-story-container small {
     text-align: center;
   }
 
@@ -278,7 +284,9 @@
     padding: 0% 5%;
   }
 
-  .main-subic {
+  .main-subic,
+  .main-falls,
+  .main-mayon {
     margin: 2rem 20%;
   }
 
@@ -433,7 +441,9 @@
 }
 
 @media screen and (min-width: 1100px) {
-  .main-subic {
+  .main-subic,
+  .main-falls,
+  .main-mayon {
     margin: 2rem 25%;
   }
 }

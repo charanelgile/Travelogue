@@ -197,7 +197,9 @@ h5 {
 }
 
 .highlight-story-title,
-.subic-story-title {
+.subic-story-title,
+.falls-story-title,
+.mayon-story-title {
   color: #199490;
 }
 
@@ -233,12 +235,15 @@ h5 {
   background-color: rgb(150, 140, 205) !important;
 }
 
-/* Destinations - Subic */
-.main-subic {
+.main-subic,
+.main-falls,
+.main-mayon {
   margin: 2rem 1.5rem;
 }
 
-.subic-story-container {
+.subic-story-container,
+.falls-story-container,
+.mayon-story-container {
   display: flex;
   flex-direction: column;
 }
