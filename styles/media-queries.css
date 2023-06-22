@@ -62,7 +62,7 @@
 
   .sub-banner-1 {
     background: linear-gradient(to top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6)),
-      url("../images/destinations/falls.JPG");
+      url("../images/destinations/falls.jpg");
     background-size: cover;
     background-position: center;
     background-position-y: 30%;
@@ -70,7 +70,7 @@
 
   .sub-banner-2 {
     background: linear-gradient(to top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6)),
-      url("../images/destinations/mayon.JPG");
+      url("../images/destinations/mayon.jpg");
     background-size: cover;
     background-position: center;
     background-position-y: 20%;
