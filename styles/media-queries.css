@@ -98,6 +98,14 @@
   .prev-bck-nxt-1 {
     width: 50%;
   }
+
+  .portrait-img {
+    width: 350px;
+  }
+
+  .landscape-img {
+    width: 400px;
+  }
 }
 
 @media screen and ((min-width: 701px) and (max-width: 900px)) {
@@ -426,6 +434,14 @@
 
   .crsl-hoyop-4 {
     background-position-y: 85%;
+  }
+
+  .portrait-img {
+    width: 400px;
+  }
+
+  .landscape-img {
+    width: 450px;
   }
 }
 
