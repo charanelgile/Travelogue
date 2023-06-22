@@ -28,15 +28,20 @@ The website will give its readers a glimpse of the majestic Mayon Volcano, the B
 **Sitenap:**
 
 - Home
+  - The Serene Subic Beach of Sorsoganons
+  - <i>Falls</i> In Love with Bulusan's Hidden Beauty
+  - Truly <i>Magayon</i>: The Majestic Mt. Mayon
 - About
+  - Project Objectives
+  - Project Description
 - Gallery
   - Calintaan, Matnog
   - Sorsogon
   - Legazpi City
 - Destinations
-  - Calintaan, Matnog
-  - Sorsogon
-  - Legazpi City
+  - The Serene Subic Beach of Sorsoganons
+  - <i>Falls</i> In Love with Bulusan's Hidden Beauty
+  - Truly <i>Magayon</i>: The Majestic Mt. Mayon
 - Travel Guides
-  - Hacks and Tips
+  - General Tips
   - Itinerary
