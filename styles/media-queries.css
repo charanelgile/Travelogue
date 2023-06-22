@@ -88,6 +88,14 @@
   .crsl-juag-1 {
     background-position-y: 40%;
   }
+
+  .main-subic {
+    margin: 2rem 3.5rem;
+  }
+
+  .prev-bck-nxt-1 {
+    width: 50%;
+  }
 }
 
 @media screen and ((min-width: 701px) and (max-width: 900px)) {
@@ -211,6 +219,25 @@
   .crsl-hoyop-4 {
     background-position-y: 65%;
   }
+
+  .main-subic {
+    margin: 2rem 15%;
+  }
+
+  .subic-story-container small {
+    text-align: center;
+  }
+
+  .prev-bck-nxt-1 {
+    display: none;
+  }
+
+  .prev-bck-nxt-2 {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
 @media screen and (min-width: 901px) {
@@ -249,6 +276,10 @@
 
   .highlight-story-container {
     padding: 0% 5%;
+  }
+
+  .main-subic {
+    margin: 2rem 20%;
   }
 
   /* Gallery */
@@ -401,6 +432,12 @@
   }
 }
 
+@media screen and (min-width: 1100px) {
+  .main-subic {
+    margin: 2rem 25%;
+  }
+}
+
 @media screen and (min-width: 1250px) {
   .main-home .shortcut-stories {
     margin: 1rem 2.2rem;
@@ -442,5 +479,9 @@
 
   .crsl-hoyop-4 {
     background-position-y: 80%;
+  }
+
+  .prev-bck-nxt-2 {
+    width: 80%;
   }
 }

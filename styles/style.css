@@ -196,20 +196,62 @@ h5 {
   display: none;
 }
 
-.highlight-story-title {
+.highlight-story-title,
+.subic-story-title {
   color: #199490;
 }
 
-.next-story {
+.highlight-story-container .next-story {
   border: none;
   width: 150px;
   background-color: rgb(115, 100, 175);
 }
 
-.next-story:hover {
-  color: white !important;
+.prev-bck-nxt-1 .previous-story,
+.prev-bck-nxt-1 .back-to-destinations,
+.prev-bck-nxt-1 .next-story {
+  width: 50px;
+  height: 50px;
+  border: none;
+  padding: 0.8rem;
+  border-radius: 50%;
   background-color: rgb(115, 100, 175);
+}
+
+.prev-bck-nxt-2 .previous-story,
+.prev-bck-nxt-2 .back-to-destinations,
+.prev-bck-nxt-2 .next-story {
+  border: none;
+  padding: 0.5rem 1.5rem;
+  background-color: rgb(115, 100, 175);
+}
+
+.next-story:hover,
+.previous-story:hover,
+.back-to-destinations:hover {
+  color: rgba(0, 0, 0, 1) !important;
   background-color: rgb(150, 140, 205) !important;
+}
+
+/* Destinations - Subic */
+.main-subic {
+  margin: 2rem 1.5rem;
+}
+
+.subic-story-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.prev-bck-nxt-1 {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.prev-bck-nxt-2 {
+  display: none;
 }
 
 /***** Gallery *****/
