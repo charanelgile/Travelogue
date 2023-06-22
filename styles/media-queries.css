@@ -144,6 +144,10 @@
     font-size: 0.85rem;
   }
 
+  #tips {
+    padding: 0.5rem 2rem;
+  }
+
   .main-gallery .container {
     padding: 0% 4rem;
   }
@@ -308,6 +312,15 @@
     font-size: 90%;
   }
 
+  /* Travel Guides */
+  #tips {
+    padding: 0.5rem 3rem;
+  }
+
+  #tips .card-title {
+    font-size: x-large;
+  }
+
   footer {
     margin-top: 1.5rem;
   }
@@ -401,6 +414,10 @@
 
   .main-guides .table {
     font-size: 1rem;
+  }
+
+  #tips {
+    padding: 1rem 3rem 1.5rem 3rem;
   }
 
   .main-gallery {

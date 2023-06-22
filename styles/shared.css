@@ -80,6 +80,10 @@ footer .container ul li li {
   color: white;
 }
 
+footer .container ul li li {
+  font-size: small;
+}
+
 /* Hidden Footer Submenus */
 footer .container ul li a + ul {
   display: none;

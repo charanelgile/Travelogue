@@ -567,12 +567,19 @@ section .carousel p {
   background-color: rgb(200, 200, 200);
 }
 
+.card-header a:hover {
+  border: none;
+  color: white;
+  background-color: #199490;
+}
+
 .card-header a,
 .card-header a.active {
   font-weight: 600;
   color: rgba(0, 0, 0, 0.6);
 }
 
+/* Itinerary */
 .accordion .accordion-item .odd {
   color: white !important;
   background-color: slateblue !important;
@@ -587,4 +594,15 @@ section .carousel p {
 
 .table {
   font-size: small;
+}
+
+/* General Tips */
+#tips {
+  padding: 0.35rem 0.75rem;
+}
+
+#tips .card-title {
+  color: #199490;
+  font-size: larger;
+  margin-bottom: 1rem;
 }
